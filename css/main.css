@@ -115,15 +115,15 @@
     height: 700px;
     display: inline-block;
     margin-top: 70px;
-    margin-left: 20px;
+    margin-left: 200px;
     border-radius: 100% 0% 52% 48% / 59% 0% 100% 41%  ;
     box-shadow: -3px 3px 8px 3px black; 
 }
 .banner p{
-    float: right;
+    float: left;
     font-size: 50px;
     margin-top: 350px;
-    margin-right: 200px;
+    margin-left: 100px;
     font-family: 'The Nautigal', cursive;
 }
 #author{
