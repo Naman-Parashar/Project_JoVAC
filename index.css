@@ -111,9 +111,9 @@ html {
         transition: 2s;
     }
 }
-.container{
+/* .container{
     display: none;
-}
+} */
 
 #banner-img{
     width: 45%;
