@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
-  }
+    cursor: url("/Images/bambooc4.png"),auto;
+}
 *{
     margin: 0;
     padding: 0;
@@ -197,7 +198,7 @@ h3{
 }
 #cimg1{
     display: inline-block;
-    width: 350px;
+    width: 390px;
     height: 700px;
     margin-top: 30px;
     margin-left: 20px;
@@ -206,7 +207,7 @@ h3{
 }
 #cimg2{
     display: inline-block;
-    width: 350px;
+    width: 390px;
     height: 700px;
     margin-top: 30px;
     margin-left: 20px;
@@ -215,7 +216,7 @@ h3{
 }
 #cimg3{
     display: inline-block;
-    width: 350px;
+    width: 390px;
     height: 700px;
     margin-top: 30px;
     margin-left: 20px;
@@ -224,7 +225,7 @@ h3{
 }
 #cimg4{
     display: inline-block;
-    width: 350px;
+    width: 390px;
     height: 700px;
     margin-top: 30px;
     margin-left: 20px;
@@ -250,4 +251,7 @@ padding-top: 20px;
 }
 .footer a:hover{
     color: coral;
+}
+.collect{
+    margin-left: 10px;
 }
