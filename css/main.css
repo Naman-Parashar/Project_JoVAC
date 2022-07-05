@@ -61,10 +61,11 @@
 
 #link5{
     margin-top: -900px;
+    margin-right: 20px;
     width: 180px;
     height: 60px;
     padding-top: 20px;
-    padding-left: 35px;
+    padding-left: 30px;
     border-radius: 30px;
     background: #acb6e5;  
     background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  
@@ -112,10 +113,10 @@
 
 #banner-img{
     width: 45%;
-    height: 700px;
+    height: 600px;
     display: inline-block;
     margin-top: 70px;
-    margin-left: 200px;
+    margin-left: 160px;
     border-radius: 100% 0% 52% 48% / 59% 0% 100% 41%  ;
     box-shadow: -3px 3px 8px 3px black; 
 }
@@ -190,4 +191,60 @@ h3{
 .aa h2,h3{
     margin-left: 80px;
     color: goldenrod;
+}
+#cimg1{
+    display: inline-block;
+    width: 350px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+#cimg2{
+    display: inline-block;
+    width: 350px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+#cimg3{
+    display: inline-block;
+    width: 350px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+#cimg4{
+    display: inline-block;
+    width: 350px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;   
+}
+.footer{
+    width: 97%;
+    height: 100px;
+    /* background-color: #86fde8; */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #ADA996;
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+text-align: center;
+padding-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: gold;
+}
+.footer a:hover{
+    color: coral;
 }
