@@ -1,12 +1,13 @@
 html {
     scroll-behavior: smooth;
-    cursor: url("/Images/bambooc4.png"),auto;
+    /* cursor: url("/Images/bambooc4.png"),auto; */
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*   */
 
 .loading{
     width: 100%;
@@ -59,8 +60,9 @@ html {
 .lists{
     list-style: none;
     display: flex;
-    margin-left: 600px;
+    margin-left: 400px;
     margin-top: -110px;
+    /* border: 3px solid red;  */
 }
 
 #link5{
@@ -78,12 +80,18 @@ html {
 }
 .list{
     /* width: 150px; */
-    padding: 30px;
-    margin: 15px; 
+    height: 20px;
+    /* padding-left: 80px; */
+    margin-top: 30px;
+    margin-left: 90px;
+    /* padding: 30px; */
+    /* margin: 15px;  */
+    text-align: center;
+    /* border: 3px solid yellow; */
      
 }
 .links{
-    display: inline-block;
+    display: inline-flex;
     text-decoration: none;
     color:white;
 }
@@ -92,6 +100,26 @@ html {
     transition: .5s; 
     transform: scale(1.5); 
     transition-delay: .3s;
+}
+.dropdown1{
+   display: none;
+}
+.nav ul li:hover .dropdown1{
+    display: block;
+    position: absolute;
+    margin-top:5px ;
+    margin-left: -25px;
+}
+.nav ul li:hover .dropdown1 ul li{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.nav ul li:hover .dropdown1 ul li a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
 @keyframes loader{
     0%{
@@ -198,7 +226,7 @@ h3{
 }
 #cimg1{
     display: inline-block;
-    width: 390px;
+    width: 350px;
     height: 700px;
     margin-top: 30px;
     margin-left: 20px;
@@ -207,7 +235,7 @@ h3{
 }
 #cimg2{
     display: inline-block;
-    width: 390px;
+    width: 350px;
     height: 700px;
     margin-top: 30px;
     margin-left: 20px;
@@ -216,7 +244,7 @@ h3{
 }
 #cimg3{
     display: inline-block;
-    width: 390px;
+    width: 350px;
     height: 700px;
     margin-top: 30px;
     margin-left: 20px;
@@ -225,7 +253,7 @@ h3{
 }
 #cimg4{
     display: inline-block;
-    width: 390px;
+    width: 350px;
     height: 700px;
     margin-top: 30px;
     margin-left: 20px;
