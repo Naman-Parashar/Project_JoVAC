@@ -113,13 +113,19 @@ html {
 .nav ul li:hover .dropdown1 ul li{
     display: block;
     margin-bottom: 10px;
-    
+    border-bottom: 1px solid black;
+}
+.nav ul li:hover .dropdown1 ul li:last-child{
+    border-bottom:none;
 }
 .nav ul li:hover .dropdown1 ul li a{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: bold;
+}
+.fa{
+    margin-right: 7px;
 }
 @keyframes loader{
     0%{
