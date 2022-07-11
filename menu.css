@@ -20,7 +20,7 @@
 #logo{
     display: inline-block;
     margin-top: 20px;
-    margin-left: 1500px;
+    margin-left: 1400px;
     width: 100px;
     
 }
@@ -29,29 +29,29 @@
     transition: 3s;
 }
 #container1{
-    background-image: url(/images/beer2.jpg);
+    background-image: url(images/beer2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #container2{
-    background-image: url(/images/bruncha.jpg);
+    background-image: url(images/bruncha.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   
 }
 #container3{
-    background-image: url(/images/coktail.jpg);
+    background-image: url(images/coktail.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #container4{
-    background-image: url(/images/fine.jpg);
+    background-image: url(images/fine.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 850px;
 }
 #container5{
-    background-image: url(/images/holiday.jpg);
+    background-image: url(images/holiday.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 850px;
@@ -73,4 +73,7 @@ padding-top: 20px;
 }
 .footer a:hover{
     color: coral;
+}
+.footer{
+    border-bo
 }

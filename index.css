@@ -50,12 +50,24 @@ html {
 .nav{
     width: 100%;
     height: 100vh;
-    background-image: url(../images/food3.jpg);
+    background-image: url(images/food3.jpg);
     /* background-position: center; */
     /* background-repeat: no-repeat; */
     background-size: cover;
     /* position: relative; */
     margin-top: 1px;
+}
+.b{
+    width: 100%;
+    height: 35px;
+    /* border: 2px solid red; */
+    margin-bottom: -30px;
+    border-style: solid;
+ border-width: 0px 0px 41px 0px;
+ -moz-border-image: url(ww.png) 5 5 604 5 repeat repeat;
+ -webkit-border-image: url(ww.png) 5 5 604 5 repeat repeat;
+ -o-border-image: url(ww.png) 5 5 604 5 repeat repeat;
+ border-image: url(ww.png) 5 5 604 5 repeat repeat;
 }
 .lists{
     list-style: none;
@@ -107,7 +119,7 @@ html {
 .nav ul li:hover .dropdown1{
     display: block;
     position: absolute;
-    margin-top:5px ;
+    margin-top:2px ;
     margin-left: -25px;
 }
 .nav ul li:hover .dropdown1 ul li{
@@ -154,6 +166,7 @@ html {
     height: 600px;
     display: inline-block;
     margin-top: 70px;
+    margin-bottom: 20px;
     margin-left: 160px;
     border-radius: 100% 0% 52% 48% / 59% 0% 100% 41%  ;
     box-shadow: -3px 3px 8px 3px black; 
@@ -161,7 +174,7 @@ html {
 .banner p{
     float: left;
     font-size: 50px;
-    margin-top: 350px;
+    margin-top: 220px;
     margin-left: 100px;
     font-family: 'The Nautigal', cursive;
 }
