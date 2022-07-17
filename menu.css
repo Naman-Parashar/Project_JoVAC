@@ -59,13 +59,11 @@
 .footer{
     width: 100%;
     height: 100px;
-    /* background-color: #86fde8; */
-    /* background: #ADA996;
-background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
-background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); */
 text-align: center; 
-
-padding-top: 20px;
+}
+padding-top:
+{
+     20px;
 }
 .footer a{
     text-decoration: none;
