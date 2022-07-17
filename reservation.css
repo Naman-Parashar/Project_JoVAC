@@ -1,16 +1,17 @@
 *{
     background-color:blanchedalmond;
     }
-    .container {
+    #container {
          /* border: 2px solid red;  */
         text-align: center;
         height: 340px;
         width: 500px;
         /* margin: 188px 600px; */
         margin: auto;
-        margin-top: 150px;
+        margin-top: 100px;
     }
      .form {
+        margin-top: 28px;
         align-items: center;
 
     }
@@ -84,5 +85,15 @@
     }
     div a:hover{
         color: rgb(164, 18, 204);
+    }
+    .alert{
+        width: 100%;
+        background: rgb(0, 255, 106);
+        padding: 10px 20px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 900;
+        display: none;
     }
     
