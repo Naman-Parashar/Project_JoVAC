@@ -34,6 +34,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#container1 .imglink #logo{
+    margin-bottom: 1000px;
+}
 #container2{
     background-image: url('Images/bruncha.jpg');
     background-repeat: no-repeat;
