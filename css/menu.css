@@ -30,7 +30,7 @@
     transition: 3s;
 }
 #container1{
-    background-image: url('../Menu/Images/beer2.jpg');
+    background-image: url('../Menu/images/beer2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,24 +38,24 @@
     margin-bottom: 1000px;
 }
 #container2{
-    background-image: url('../Menu/Images/bruncha.jpg');
+    background-image: url('../Menu/images/bruncha.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   
 }
 #container3{
-    background-image: url('../Menu/Images/coktail.jpg');
+    background-image: url('../Menu/images/coktail.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 #container4{
-    background-image: url('../Menu/Images/fine.jpg');
+    background-image: url('../Menu/images/fine.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 850px;
 }
 #container5{
-    background-image: url('../Menu/Images/holiday.jpg');
+    background-image: url('../Menu/images/holiday.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 850px;
