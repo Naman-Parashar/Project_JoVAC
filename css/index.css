@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    /* cursor: url("/Images/bambooc4.png"),auto; */
+    cursor: url("../Images/bambooc4.png"),auto;
 }
 *{
     margin: 0;
@@ -55,7 +55,7 @@ body{
 .nav{
     width: 100%;
     height: 100vh;
-    background-image: url('Images/food3.jpg');
+    background-image: url('../Images/food3.jpg');
     /* background-position: center; */
     /* background-repeat: no-repeat; */
     background-size: cover;
@@ -69,10 +69,10 @@ body{
     margin-bottom: -30px;
     border-style: solid;
  border-width: 0px 0px 41px 0px;
- -moz-border-image: url(ww.png) 5 5 604 5 repeat repeat;
- -webkit-border-image: url(ww.png) 5 5 604 5 repeat repeat;
- -o-border-image: url(ww.png) 5 5 604 5 repeat repeat;
- border-image: url(ww.png) 5 5 604 5 repeat repeat;
+ -moz-border-image: url('../Images/ww.png') 5 5 604 5 repeat repeat;
+ -webkit-border-image: url('../Images/ww.png') 5 5 604 5 repeat repeat;
+ -o-border-image: url('../Images/ww.png') 5 5 604 5 repeat repeat;
+ border-image: url('../Images/ww.png') 5 5 604 5 repeat repeat;
 }
 .lists{
     list-style: none;
