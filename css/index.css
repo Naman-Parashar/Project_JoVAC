@@ -46,7 +46,7 @@ body{
     
 }
 #logo:hover{
-    transform: rotate(360deg); 
+    transform: rotateY(360deg); 
     transition: 3s;
 }
 .container{
