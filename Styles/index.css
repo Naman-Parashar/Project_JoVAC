@@ -59,17 +59,16 @@ body {
     width: 100%;
 }
 
-.nav {
+
+.head{
     width: 100%;
     height: 100vh;
     background-image: url('../Assets/Home/Background.jpg');
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
     background-size: cover;
-    /* position: relative; */
-    margin-top: 1px;
 }
-
+.navbar{
+    height: 120px;
+}
 .b {
     width: 100%;
     height: 35px;
