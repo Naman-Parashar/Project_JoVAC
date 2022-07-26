@@ -8,11 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
-    <link rel="icon" href="./images/bamboo.png">
+    <link rel="icon" href="./images/title.png">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body onload="pageLoder()">
+    <script>
+        function pageLoder()
+        {
+            document.querySelector(".container").style.display="none";
+            setTimeout(loader,4000);
+        }
+        function loader()
+        {
+            document.querySelector(".loading").style.display="none";
+    
+            document.querySelector(".container").style.display="block";
+    
+        }
+        </script>
 
     <div class="loading">
         <div class="box-animation"> <img id="l" src="Images/bamboo2.png" alt="bamboo" height="200px"></div>
@@ -91,19 +105,6 @@
         <a id="cont"></a>
     </div>
 
-    <script>
-        function pageLoder()
-        {
-            document.querySelector(".container").style.display="none";
-            setTimeout(loader,4000);
-        }
-        function loader()
-        {
-            document.querySelector(".loading").style.display="none";
-    
-            document.querySelector(".container").style.display="block";
-    
-        }
-        </script>
+  
 </body>
 </html>
